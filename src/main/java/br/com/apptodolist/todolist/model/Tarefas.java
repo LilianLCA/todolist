@@ -35,7 +35,7 @@ public class Tarefas {
 	private boolean concluido;
 	
 	@NotNull(message = "O atributo prioridade é obrigatório!") 
-	@Size(min = 5, max = 10, message = "A prioridade da sua tarefa deve ser categorizada entre: Baixa, Média ou Alta.")
+	@Size(min = 4, max = 10, message = "A prioridade da sua tarefa deve ser categorizada entre: Baixa, Média ou Alta.")
 	private String prioridade;
 	
 	@Temporal(TemporalType.TIMESTAMP)
